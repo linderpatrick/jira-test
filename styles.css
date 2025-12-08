@@ -3,14 +3,11 @@ main{
 }
 
 button{
-  display:block;
-  margin:auto;
   background-color:lightgreen;
 }
 
 h1{
-  display:block;
-  margin:auto;
   text-align:center;
 }
+
 

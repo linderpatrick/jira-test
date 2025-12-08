@@ -1,11 +1,11 @@
 main{
 	background:lightblue;
-
 }
 
 button{
   display:block;
   margin:auto;
+  background-color:lightgreen;
 }
 
 h1{
@@ -14,19 +14,3 @@ h1{
   text-align:center;
 }
 
-
-h3{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-}
-
-h3 input{
-  margin-left:50px;
-  width:150px;
-}
-
-button{
-  background-color:lightgreen;
-
-}

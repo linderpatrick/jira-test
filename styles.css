@@ -1,7 +1,6 @@
 main{
 	background:lightblue;
-  width:30%;
-  height:300px;
+
 }
 
 button{
@@ -29,4 +28,5 @@ h3 input{
 
 button{
   background-color:lightgreen;
+
 }

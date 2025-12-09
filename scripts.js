@@ -46,12 +46,12 @@
       console.log('Using issueKey:', issueKey);
 
       // ❗️IMPORTANT: these must be the real field IDs like "customfield_12345"
-      const FIELD_PROJECT_START_DATE = 'customfield_XXXXX'; // ProjectStartDate
-      const FIELD_WIREFRAME_DAYS = 'customfield_YYYYY';     // WireFrameDuration
-      const FIELD_HTML_DAYS = 'customfield_ZZZZZ';          // HtmlDuration
-      const FIELD_CSS_DAYS = 'customfield_AAAAA';           // CssDuration
-      const FIELD_JS_DAYS = 'customfield_BBBBB';            // JsDuration
-      const FIELD_TRIGGER = 'customfield_CCCCC';            // Trigger (checkbox)
+      const FIELD_PROJECT_START_DATE = 'ProjectStartDate'; // ProjectStartDate
+      const FIELD_WIREFRAME_DAYS = 'WireFrameDuration';     // WireFrameDuration
+      const FIELD_HTML_DAYS = 'HtmlDuration';          // HtmlDuration
+      const FIELD_CSS_DAYS = 'CssDuration';           // CssDuration
+      const FIELD_JS_DAYS = 'JsDuration';            // JsDuration
+      const FIELD_TRIGGER = 'Trigger';            // Trigger (checkbox)
 
       const body = {
         fields: {
@@ -94,3 +94,4 @@
     initForm();
   }
 })();
+

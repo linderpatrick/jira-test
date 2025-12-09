@@ -44,12 +44,12 @@
       const issueKey = AdaptavistBridgeContext.context.issueKey;
       console.log('[WebPanel] Using issueKey:', issueKey);
 
-    const FIELD_PROJECT_START_DATE = 'ProjectStartDate';
-    const FIELD_WIREFRAME_DAYS    = 'WireFrameDuration';
-    const FIELD_HTML_DAYS         = 'HtmlDuration';
-    const FIELD_CSS_DAYS          = 'CssDuration';
-    const FIELD_JS_DAYS           = 'JsDuration';
-    const FIELD_TRIGGER           = 'Trigger'; // checkbox
+    const FIELD_PROJECT_START_DATE = 'customfield_10206';
+    const FIELD_WIREFRAME_DAYS    = 'customfield_10201';
+    const FIELD_HTML_DAYS         = 'customfield_10202';
+    const FIELD_CSS_DAYS          = 'customfield_10203';
+    const FIELD_JS_DAYS           = 'customfield_10204';
+    const FIELD_TRIGGER           = 'customfield_10165'; // checkbox
 
 
 
@@ -96,3 +96,4 @@
     initForm();
   }
 })();
+

@@ -60,7 +60,7 @@
 	  const FIELD_JS_DAYS           = 'customfield_10204';
 	  const FIELD_TRIGGER           = 'customfield_10165'; // checkbox
 
-      const triggerValue = [{ value: 'OK' }] 
+      const triggerValue = [{ value: 'OK' }]; 
 
       const body = {
         fields: {
@@ -100,4 +100,5 @@
     initForm();
   }
 })();
+
 
